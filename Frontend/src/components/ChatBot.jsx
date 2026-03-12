@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, useCallback } from "react";
 import axios from "axios";
 import "./Chatbot.css";
 
-const API_URL = "http://localhost:5000/api/chat";
+const API_URL = "https://mern-ai-chatbot-backend-yvvr.onrender.com";
 
 const BOT_AVATAR = (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
